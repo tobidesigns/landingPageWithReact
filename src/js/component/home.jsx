@@ -5,7 +5,7 @@ import React from "react";
 import { TopBar } from "./topbar.jsx";
 import { LandingCard } from "./landingcard.jsx";
 import { Jumbotron } from "./jumbotron.jsx";
-//import { Footer } from "./footer.jsx";
+import { Footer } from "./footer.jsx";
 
 
 //create your first component
@@ -20,9 +20,13 @@ const Home = () => {
 			<LandingCard />
 			<LandingCard />
 			<LandingCard />
+			<LandingCard />
+			<LandingCard />
+			<LandingCard />
+			<LandingCard />
 			</div>
 			</div>
-			
+			<Footer />
 		</div>
 	)
 };
