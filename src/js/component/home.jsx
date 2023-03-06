@@ -13,17 +13,17 @@ const Home = () => {
 	return (
 		<div className="container-fluid">
 			<TopBar />
-			<Jumbotron />
+			<Jumbotron title="Hello" />
 			<div className="container" >
 			<div className="row row-cols-1 row-cols-md-4 g-4">
-			<LandingCard />
-			<LandingCard />
-			<LandingCard />
-			<LandingCard />
-			<LandingCard />
-			<LandingCard />
-			<LandingCard />
-			<LandingCard />
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!" />
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!"/>
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!"/>
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!"/>
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!"/>
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!"/>
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!"/>
+			<LandingCard title="Card Title" text="This is the card text to fill the body of the card.." button="Press ths Button!"/>
 			</div>
 			</div>
 			<Footer />
